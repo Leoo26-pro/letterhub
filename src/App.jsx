@@ -1,9 +1,24 @@
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/SideBar";
+import HomePage from "./pages/Homepage";
+import Footer from "./components/Footer";
+
 function App() {
-  return (
-    <div>
-      <h1 className="text-4xl text-red-600 font-bold">Hello World</h1>
-    </div>
-  );
+    return (
+        <div>
+            {/* Navbar */}
+            <Navbar />
+
+            {/* Sidebar */}
+            {/* <Sidebar /> */}
+
+            {/* Main Content */}
+            {/* <HomePage /> */}
+
+            {/* Footer */}
+            {/* <Footer /> */}
+        </div>
+    );
 }
 
 export default App;
