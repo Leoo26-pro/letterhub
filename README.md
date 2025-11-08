@@ -6,7 +6,7 @@ _LetterHub UGM_ hadir sebagai solusi front-end untuk masalah ini. Kami mengusulk
 
 Proyek ini dibuat untuk kompetisi **Webcraft UGM** dengan tema "Inovasi Digital untuk Kehidupan Kampus".
 
-**[ Coba Live Demo Di Sini ](https://<masukkan-link-vercel-atau-deployment-anda-di-sini>)**
+**[ Coba Live Demo Di Sini ](https://letterhub.vercel.app/)**
 
 ---
 
