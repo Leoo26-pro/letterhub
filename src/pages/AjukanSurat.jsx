@@ -103,10 +103,11 @@ const AjukanSurat = () => {
             <div className="grid grid-cols-2 gap-10 items-center">
                 <div>
                     <h1 className="text-3xl font-bold text-sky-500 mb-4">
-                        Ajukan Surat
+                        Administrasi Surat Tanpa Repot
                     </h1>
                     <p className="text-gray-600">
-                        Ini adalah halaman untuk mengajukan surat.
+                        Platform terpadu untuk mempercepat semua kebutuhan surat
+                        akademik Anda.
                     </p>
                 </div>
                 <img

@@ -1,16 +1,61 @@
-# React + Vite
+# LetterHub UGM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+_Dashboard Terpadu untuk Melacak Semua Pengajuan Surat Mahasiswa UGM di Satu Tempat._
 
-Currently, two official plugins are available:
+_LetterHub UGM_ hadir sebagai solusi front-end untuk masalah ini. Kami mengusulkan sebuah _dashboard terpadu_ yang akan mememcahkan masalah tersebut dengan menyatukan semua data yang terfragmentasi ke dalam satu antarmuka yang bersih, modern, dan mudah digunakan
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Proyek ini dibuat untuk kompetisi **Webcraft UGM** dengan tema "Inovasi Digital untuk Kehidupan Kampus".
 
-## React Compiler
+**[ Coba Live Demo Di Sini ](https://<masukkan-link-vercel-atau-deployment-anda-di-sini>)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### Fitur Utama (Prototipe Demo)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-   **Dashboard:** Menampilkan daftar surat (disimulasikan dari "Fakultas MIPA", "Fakultas Teknik") dalam satu _card list_ yang rapi.
+-   **Filter Status Live:** Filter daftar surat secara instan berdasarkan status ("Semua", "Diproses", "Selesai", "Ditolak") tanpa me-refresh halaman.
+-   **Pencarian Live:** Cari surat berdasarkan nama secara _real-time_.
+-   **Simulasi Pengajuan:** Fungsionalitas modal untuk "mengajukan" surat baru. Setelah dikirim, surat akan langsung muncul di _dashboard_ dengan status "Diproses".
+-   **Simulasi Download:** Tombol "Unduh" akan muncul pada surat yang berstatus "Selesai" (mensimulasikan _download_ file PDF).
+-   **Landing Page:** Halaman `Homepage` yang menjelaskan masalah dan solusi sebelum masuk ke aplikasi.
+
+---
+
+### Teknologi yang Digunakan
+
+-   **React.js** (Library UI)
+-   **Vite** (Build Tool & Dev Server)
+-   **Tailwind CSS** (Utility-first Styling)
+-   **React Router DOM** (Client-side Routing)
+-   **Remix Icon** (Library Ikon)
+-   **React Hooks (useState, useEffect)**: Untuk semua logika interaktif (filter, search, modal).
+
+---
+
+### Petunjuk Instalasi & Menjalankan (Lokal)
+
+1.  **Clone repositori ini:**
+
+    ```bash
+    git clone <URL-repositori-anda>
+    ```
+
+2.  **Masuk ke direktori proyek:**
+
+    ```bash
+    cd <nama-folder-proyek>
+    ```
+
+3.  **Install semua _dependencies_:**
+
+    ```bash
+    npm install
+    ```
+
+4.  **Jalankan _development server_:**
+
+    ```bash
+    npm run dev
+    ```
+
+5.  Buka `http://localhost:5173` (atau port yang tertera di terminal) di browser Anda.
